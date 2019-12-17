@@ -1,0 +1,88 @@
+#crmWebToEntityForm tr , #crmWebToEntityForm td { 
+			padding:6px;
+			padding-top: 0;
+			border-spacing:0px;
+			border-width:0px;
+			}
+			
+			form label {
+  display: inline-block;
+   
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+.errormy {
+  color: red;
+  margin-left: 5px;  border:1px solid red !important;
+}
+
+label.errormy {
+  display: inline; 
+}
+
+.lead_form_fields{
+background-color: #f1edea !important;
+     
+    padding: 5px;
+}
+#zohoz  td,table#zohoz{ padding:0 10px;
+    box-sizing: border-box;
+    border: 0px solid #f1f1f1;}
+	
+#zohoz	tr:nth-child(odd) td{padding-top:20px}
+	
+input, select, textarea {
+    border: none;
+    border-radius: 0;
+    color: #0a2343;
+    font-family: inherit;
+    width: 100% !important;
+}
+
+input[type='reset'], button {
+    cursor: pointer;
+    font-size: 12px;
+    color: #4b4b4b !important;
+    background-color: transparent !important;
+    border-color: #4b4b4b !important;
+    border-radius: 10em;
+    transition: color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86), background-color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86), border-color 200ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	width:100px !important;height: 41px;
+}
+label {
+    color: #0a2343;
+    display: block;
+    margin-top: 15px; 
+font-family: Gill Sans W01;	
+}
+
+.buttonmy{
+	background-color: #4b6eb0;
+	background-color: #0a2343;  
+	width: 250px !important; 
+	float:left !important;
+    
+    color: #fff !important;
+    font-family: Gill Sans W01;
+    margin-top: 40px;
+    text-align: left;
+    text-decoration: none; font-size:18px;
+    transition: all .25s ease-in-out;}
+    
+    #crmWebToEntityForm{ width:100%}
+button:after {
+   
+    display: inline-block;
+    height: auto;
+    left: 95%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity .25s ease-in-out, transform .25s ease-in-out;
+    vertical-align: middle;
+    width: 14px;
+}
+
